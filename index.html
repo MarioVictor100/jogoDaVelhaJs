@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="teste1">
+        <h1 id="status"></h1>
+    </div>
+    <div class="teste2">
+        <h1 class="title">Jogo da Velha</h1>
+        <div id="game">
+            <div class="row">
+                <div class="cell" id="cell-0" onclick="handleClick(0)"></div>
+                <div class="cell" id="cell-1" onclick="handleClick(1)"></div>
+                <div class="cell" id="cell-2" onclick="handleClick(2)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-3" onclick="handleClick(3)"></div>
+                <div class="cell" id="cell-4" onclick="handleClick(4)"></div>
+                <div class="cell" id="cell-5" onclick="handleClick(5)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-6" onclick="handleClick(6)"></div>
+                <div class="cell" id="cell-7" onclick="handleClick(7)"></div>
+                <div class="cell" id="cell-8" onclick="handleClick(8)"></div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="bottonReload" onclick="reiniciar()">Reiniciar</button>
+        </div>
+
+    </div>
+    <div class="teste3">
+    </div>
+
+
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
